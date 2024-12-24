@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuales Aeronáuticos - AN-32B | MI-17 | MI-171</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Manuales Aeronáuticos</h1>
+        <p>Tu recurso completo para AN-32B, MI-17 y MI-171</p>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="#an32b">AN-32B</a></li>
+            <li><a href="#mi17">MI-17</a></li>
+            <li><a href="#mi171">MI-171</a></li>
+            <li><a href="#about">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <section id="an32b" class="aircraft-section">
+            <div class="aircraft-header">
+                <img src="https://www.defensa.com/foto-articulo-fichero_36728_20240327.jpg,1200,1050,0.jpg" alt="AN-32B" class="aircraft-image">
+                <div class="aircraft-info">
+                    <h2>AN-32B</h2>
+                    <p>El AN-32B es una versión mejorada del AN-32, diseñada para operaciones en condiciones de alta montaña y clima cálido. Esta aeronave de transporte militar es conocida por su excelente rendimiento en altitud y condiciones extremas.</p>
+                </div>
+            </div>
+            <div class="manual-grid">
+              
+                <div class="manual-card">
+                    <h3>Manual de Mantenimiento</h3>
+                    <p>Guía detallada de mantenimiento y servicio técnico.</p>
+                    <a href="#" class="download-btn" id="an32b-maint">Descargar Manual</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="mi17" class="aircraft-section">
+            <div class="aircraft-header">
+                <img src="/api/placeholder/300/200" alt="MI-17" class="aircraft-image">
+                <div class="aircraft-info">
+                    <h2>MI-17</h2>
+                    <p>El MI-17 es un helicóptero de transporte militar medio con capacidad de vuelo en todo tipo de clima. Es conocido por su versatilidad y fiabilidad en diversas condiciones operativas.</p>
+                </div>
+            </div>
+            <div class="manual-grid">
+                <div class="manual-card">
+                    <h3>Manual de Operaciones</h3>
+                    <p>Manual completo de operaciones para el helicóptero MI-17.</p>
+                    <a href="#" class="download-btn" id="mi17-ops">Descargar Manual</a>
+                </div>
+                <div class="manual-card">
+                    <h3>Manual de Mantenimiento</h3>
+                    <p>Documentación técnica y procedimientos de mantenimiento.</p>
+                    <a href="#" class="download-btn" id="mi17-maint">Descargar Manual</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="mi171" class="aircraft-section">
+            <div class="aircraft-header">
+                <img src="/api/placeholder/300/200" alt="MI-171" class="aircraft-image">
+                <div class="aircraft-info">
+                    <h2>MI-171</h2>
+                    <p>El MI-171 es una versión moderna y mejorada del MI-17, incorporando avances tecnológicos y mejoras en sistemas de aviónica. Destaca por su mayor eficiencia y capacidades operativas.</p>
+                </div>
+            </div>
+            <div class="manual-grid">
+                <div class="manual-card">
+                    <h3>Manual de Operaciones</h3>
+                    <p>Manual completo de operaciones para el helicóptero MI-171.</p>
+                    <a href="#" class="download-btn" id="mi171-ops">Descargar Manual</a>
+                </div>
+                <div class="manual-card">
+                    <h3>Manual de Mantenimiento</h3>
+                    <p>Guía completa de mantenimiento y servicio técnico.</p>
+                    <a href="#" class="download-btn" id="mi171-maint">Descargar Manual</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="chatbot-toggle" onclick="toggleChatbot()">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <div class="chatbot-container" id="chatbot">
+        <!-- Aquí se insertará el iframe del chatbot -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
