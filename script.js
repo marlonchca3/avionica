@@ -6,7 +6,12 @@ function toggleChatbot() {
         // Aquí puedes insertar el iframe del chatbot cuando se necesite
         if (!chatbot.querySelector('iframe')) {
             const iframe = document.createElement('iframe');
-            iframe.src = ''; // Aquí irá el link del chatbot
+            iframe.src = '<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="diravpol_bot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+<script type="text/javascript">
+  function onTelegramAuth(user) {
+    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+  }
+</script>'; // Aquí irá el link del chatbot
             iframe.style.width = '100%';
             iframe.style.height = '100%';
             iframe.style.border = 'none';
